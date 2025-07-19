@@ -24,6 +24,6 @@ A reusable React component for selecting recurring dates based on frequency and 
 ```bash
 npm install  
 npm run dev
-
+---
 ### 🚀 Live Demo
 [https://soft-starburst-33dfac.netlify.app](https://soft-starburst-33dfac.netlify.app)
