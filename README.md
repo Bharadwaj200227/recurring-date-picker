@@ -17,10 +17,10 @@ A reusable React component for selecting recurring dates based on frequency and 
 npm install
 npm run dev
 
-🧪 Run Tests
+## 🧪 Run Tests
 npx vitest run
 
-🛠 Tech Stack
+## 🛠 Tech Stack
 React.js
 Vite
 Vitest
