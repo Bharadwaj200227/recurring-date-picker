@@ -16,3 +16,13 @@ A reusable React component for selecting recurring dates based on frequency and 
 ```bash
 npm install
 npm run dev
+
+🧪 Run Tests
+npx vitest run
+
+🛠 Tech Stack
+React.js
+Vite
+Vitest
+React Testing Library
+Normal CSS (no Tailwind)
