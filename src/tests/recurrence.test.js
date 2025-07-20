@@ -35,4 +35,16 @@ describe('generateRecurringDates', () => {
     const result = generateRecurringDates('', '', 'weekly');
     expect(result).toEqual([]);
   });
+   it('generates monthly recurrence for 2nd Tuesday', () => {
+    const start = '2025-07-01';
+    const end = '2025-09-30';
+    const custom = { nth: '2', weekday: 'Tuesday' };
+    const result = generateRecurringDates(start, end, 'monthly', custom);
+
+    expect(result).toEqual([
+      '2025-07-08',
+      '2025-08-12',
+      '2025-09-09',
+    ]);
+  });
 });
